@@ -1,0 +1,4 @@
+select * from [Nome da tabela];
+select nome from [Nome da tabela];
+select nome, idade from [Nome da tabela];
+select distinct nome, cidade from [Nome tabela]// Não trás dados repitidos
