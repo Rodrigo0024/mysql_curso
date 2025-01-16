@@ -19,6 +19,30 @@ where rating = "PG";
 select * from film
 where rating <> "PG";
 
+select * from film
+where rental_rate >=1 and rental_rate <=2;
+
+
+select * from film
+where rental_rate between 1 and 3;
+
+
+select * from film
+order by rental_rate;
+
+
+select * from film
+order by rental_rate desc; // do maior para o menor
+
+
+select * from film
+where rental_rate <10 and rental_rate >5;
+
+
+select * from film
+where rental_rate <10 or rental_rate >50;
+
+
 operadores de comparação
 = //igual
 <> //diferente
