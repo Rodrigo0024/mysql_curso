@@ -2,3 +2,29 @@ select * from [Nome da tabela];
 select nome from [Nome da tabela];
 select nome, idade from [Nome da tabela];
 select distinct nome, cidade from [Nome tabela]// Não trás dados repitidos
+
+
+select * 
+from film
+where rental_duration <7;
+
+select description, rental_rate
+from film
+where rental_rate >= 2.99;
+
+select * from film
+where rating = "PG";
+
+
+select * from film
+where rating <> "PG";
+
+operadores de comparação
+= //igual
+<> //diferente
+>= //maior igual
+<= // menor igual
+
+
+
+
