@@ -43,6 +43,16 @@ select * from film
 where rental_rate <10 or rental_rate >50;
 
 
+select * from actor
+where first_name is null;
+
+select * from actor
+where first_name is not null;
+
+select * from city
+where city_id like 'ka%';
+
+
 operadores de comparação
 = //igual
 <> //diferente
