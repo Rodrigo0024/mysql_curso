@@ -60,6 +60,27 @@ create database if not exists teste2;
 
 drop database teste;
 
+create table produtos (
+id int primary key, 
+nome varchar(30),
+data_reg datetime,
+data_atualização date,
+status boolean
+
+);
+
+
+create table if not exists produtos (
+id int primary key, 
+nome varchar(30),
+data_reg datetime,
+data_atualização date,
+status boolean
+
+);
+
+drop table categorias;
+
 
 operadores de comparação
 = //igual
