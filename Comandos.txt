@@ -81,6 +81,23 @@ status boolean
 
 drop table categorias;
 
+create table vendasvendas(
+id int(5) primary key not null auto_increment,
+produtos varchar(50),
+vendedor varchar(50) not null default' ',
+quantidade int(10),
+preco decimal(10,2),
+data_venda date,
+vendido enum('sim', 'não') default 'não'
+
+);
+insert into vendas (produtos, vendedor,quantidade)
+ values('monitor', 'joão', 3);
+ 
+
+ insert into vendas (produtos, quantidade, preco)
+ values('lapis', 100, 1.00);
+ 
 
 operadores de comparação
 = //igual
